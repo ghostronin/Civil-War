@@ -3270,16 +3270,15 @@
                          <option name="defense" value="7"/>						 
                 </attatchment>
 
-				<attatchment name="unitAttatchment" attatchTo="shipyard" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
-                         <option name="movement" value="0"/>						 
+				<attatchment name="unitAttatchment" attatchTo="shipyard" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">					 
 						 <option name="repairsUnits" value="ironclad:battleship"/>					 
-						 <option name="isInfrastructure" value="true"/>
+						 <option name="isFactory" value="true"/>
                 </attatchment>
 				
 				<attatchment name="unitAttatchment" attatchTo="railyard" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
                          <option name="movement" value="0"/>
                          <option name="isSea" value="true"/>
-						 <option name="isInfrastructure" value="true"/>				 
+						 <option name="isFactory" value="true"/>				 
                 </attatchment>
 
 
@@ -7970,13 +7969,13 @@
 						<unitPlacement unitType="industrial_center" territory="Chicago" quantity="1" owner="Union"/>
 						<unitPlacement unitType="industrial_center" territory="Pittsburg" quantity="1" owner="Union"/>
 
-						<unitPlacement unitType="shipyard" territory="New York Harbor SZ" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Delaware Mouth SZ" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Potomac SZ" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Upper Chesapeake Bay SZ" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Mississippi River Upper 2" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Ohio River Headwaters" quantity="1" owner="Union"/>
-						<unitPlacement unitType="shipyard" territory="Ohio River Middle" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="New York" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="Philadelphia" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="Leonardtown" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="Baltimore" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="St Louis" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="Pittsburg" quantity="1" owner="Union"/>
+						<unitPlacement unitType="shipyard" territory="Cincinnati" quantity="1" owner="Union"/>
 
 
 						<unitPlacement unitType="railyard" territory="New York Station" quantity="1" owner="Union"/>
@@ -8199,15 +8198,15 @@
 						<unitPlacement unitType="military_college" territory="Lexington" quantity="1" owner="Confederate"/>
 
 
-						<unitPlacement unitType="shipyard" territory="Hampton Roads SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Charleston Harbor SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Savannah Harbor SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Pamlico Sound SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Mobile Bay SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Mississippi River Lower 7" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Galveston Bay SZ" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Tennessee River Upper" quantity="1" owner="Confederate"/>
-						<unitPlacement unitType="shipyard" territory="Mississippi River Lower 5" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Norfolk" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Charleston" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Savannah" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Wilmington" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Mobile" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="New Orleans" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Galveston" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Chattanooga" quantity="1" owner="Confederate"/>
+						<unitPlacement unitType="shipyard" territory="Memphis" quantity="1" owner="Confederate"/>
 
 
 						<unitPlacement unitType="railyard" territory="Columbus Georgia Station" quantity="1" owner="Confederate"/>
